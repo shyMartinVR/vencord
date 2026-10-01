@@ -1,0 +1,31 @@
+/* hide Friends, Nitro, Shop and Quest buttons and 2 separators in DMs */
+.privateChannels_e6b769 ul.content_d125d2 > :nth-child(-n+6) {
+  display: none;
+}
+/* add margin to the private channels header "Direct Messages" */
+.privateChannelsHeaderContainer__99e7c {
+  margin-top: 1em;
+}
+
+
+/* hide user nameplates */
+.container_df39b2 {
+  display: none;
+}
+/* and revert padding */
+.childContainer__91a9d.nameplated__91a9d {
+  padding-inline-end: revert-rule;
+  position: revert-rule;
+}
+
+
+/* hide profile frame container */
+.profileFrameContainer__7d80f {
+  display: none;
+}
+
+
+/* hide profile effects */
+.profileEffects__0dd08 {
+  display: none;
+}
