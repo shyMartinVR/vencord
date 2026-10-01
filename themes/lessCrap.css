@@ -25,3 +25,9 @@
 .profileEffects__0dd08 {
   display: none;
 }
+
+
+/* hide quest cards */
+.questCardContextMenuTrigger__7e549 {
+  display: none;
+}
