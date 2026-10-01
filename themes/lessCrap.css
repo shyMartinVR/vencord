@@ -1,10 +1,6 @@
-/* hide Friends, Nitro, Shop and Quest buttons and 2 separators in DMs */
-.privateChannels_e6b769 ul.content_d125d2 > :nth-child(-n+6) {
+/* hide Nitro, Shop and Quest Buttons in DMs */
+  .privateChannels_e6b769 ul.content_d125d2 > :nth-child(+n+3):nth-child(-n+5) {
   display: none;
-}
-/* add margin to the private channels header "Direct Messages" */
-.privateChannelsHeaderContainer__99e7c {
-  margin-top: 1em;
 }
 
 
