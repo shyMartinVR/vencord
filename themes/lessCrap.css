@@ -1,33 +1,33 @@
 /* hide Nitro, Shop and Quest Buttons in DMs */
-  .privateChannels_e6b769 ul.content_d125d2 > :nth-child(+n+3):nth-child(-n+5) {
+.privateChannels_u88IQl ul.content_tqapBM > :nth-child(+n+3):nth-child(-n+5) {
   display: none;
 }
 
 
 /* hide user nameplates */
-.container_df39b2 {
+.container_AFi54G {
   display: none;
 }
 /* and revert padding */
-.childContainer__91a9d.nameplated__91a9d {
+.childContainer_J1Adu_.nameplated_J1Adu_ {
   padding-inline-end: revert-rule;
   position: revert-rule;
 }
 
 
 /* hide profile frame container */
-.profileFrameContainer__7d80f {
+.profileFrameContainer_v8co33 {
   display: none;
 }
 
 
 /* hide profile effects */
-.profileEffects__0dd08 {
+.profileEffects_ZjcCyW {
   display: none;
 }
 
 
 /* hide quest cards */
-.questCardContextMenuTrigger__7e549 {
+.questCardContextMenuTrigger_-7KzVR {
   display: none;
 }
